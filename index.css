@@ -1,0 +1,98 @@
+body {
+background:#1F2937;
+margin: 0;
+padding-top:115px;
+padding-left:52px;
+display:flex;
+flex-direction: column;
+justify-content: left;
+align-items: left;
+    
+}
+#mygreen {
+    color:#4ADF86;
+}
+/* Heading */
+h1 {
+width: 354px;
+height: 80px;
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+letter-spacing: -0.025em;
+/* white */
+color: #FFFFFF;
+}
+h2 {
+    /* Supporting text */
+width: 372px;
+height: 28px;
+/* text-xl/leading-7/font-normal */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+/* Medium grey */
+color: #D5D4D8;
+
+}
+
+#generate_btn {
+
+ /* Button */
+
+/* Auto layout */
+padding: 9px 17px 9px 15px;
+gap: 12px;
+
+width: 191px;
+height: 42px;
+left: 52px;
+top: 284px;
+
+background: #10B981;
+/* shadow/sm */
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+border:0px;
+color:white;   
+}
+
+
+/* Line 17 */
+#myline {
+    margin-top:20px;
+    width: 446px;
+height: 0px;
+
+border: 1px solid #2F3E53;
+    margin-bottom: 20px;
+
+}
+#passwordblock {
+display: flex;
+flex-direction: row;
+justify-content: left;
+align-items: left;
+}
+#leftpass_el, #rightpass_el {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border:0px;
+    margin-right:24px;
+    border-radius:4px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+text-align: center;
+color: #55F991;
+}
